@@ -18,7 +18,7 @@ namespace MultiShop.Discount.Context
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=MUHAMMETAKYOL; initial Catalog=MultiShopDiscountDb; integrated Security=true");
+            optionsBuilder.UseSqlServer("Server=MUHAMMETAKYOL; initial Catalog=MultiShopDiscountDb; integrated Security=true");//Veri Tabanı Bağlantısı
         }
         public DbSet<Coupon> Coupons { get; set; }
         public IDbConnection CreateConnection() => new SqlConnection(_connectionString);
