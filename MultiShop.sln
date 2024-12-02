@@ -29,6 +29,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Persistence
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.WebApi", "Services\Order\Presentation\MultiShop.Order.WebApi\MultiShop.Order.WebApi.csproj", "{032A8FA9-48F1-4C03-9F58-BEE6139F5EA0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{E9C3C40F-A694-4BDF-9001-84709C3AC637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.IdentityServer", "IdentityServer\MultiShop.IdentityServer\MultiShop.IdentityServer.csproj", "{64C7197A-3373-4CB9-9EE3-8BD6D3027C6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{CEC59680-5FE4-4286-8929-543E68403A90}"
+	ProjectSection(SolutionItems) = preProject
+		IdentityServerVersionErrorSolution.txt = IdentityServerVersionErrorSolution.txt
+		PortainerCmd.txt = PortainerCmd.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +69,10 @@ Global
 		{032A8FA9-48F1-4C03-9F58-BEE6139F5EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{032A8FA9-48F1-4C03-9F58-BEE6139F5EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{032A8FA9-48F1-4C03-9F58-BEE6139F5EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C7197A-3373-4CB9-9EE3-8BD6D3027C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C7197A-3373-4CB9-9EE3-8BD6D3027C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C7197A-3373-4CB9-9EE3-8BD6D3027C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C7197A-3373-4CB9-9EE3-8BD6D3027C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +90,6 @@ Global
 		{060170E2-CAAF-4122-B55A-F0E94B542E5F} = {13910CAB-640B-4FE9-9C63-4C38A70B8873}
 		{E3224264-BCC2-47E8-BDE9-E195D343D24F} = {5526A75A-332C-40BE-A215-EED411E440EC}
 		{032A8FA9-48F1-4C03-9F58-BEE6139F5EA0} = {0F06BC9C-F69F-4FC2-978C-317E3E154D5C}
+		{64C7197A-3373-4CB9-9EE3-8BD6D3027C6F} = {E9C3C40F-A694-4BDF-9001-84709C3AC637}
 	EndGlobalSection
 EndGlobal
