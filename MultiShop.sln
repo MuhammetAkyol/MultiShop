@@ -35,9 +35,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.IdentityServer", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{CEC59680-5FE4-4286-8929-543E68403A90}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\FontAwesomeLink.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\FontAwesomeLink.txt
 		IdentityServerVersionErrorSolution.txt = IdentityServerVersionErrorSolution.txt
 		PortainerCmd.txt = PortainerCmd.txt
 		PortNumber.txt = PortNumber.txt
+		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\SimpleCode.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\SimpleCode.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{9EC689F6-64C4-4420-BC70-E9790F499802}"
