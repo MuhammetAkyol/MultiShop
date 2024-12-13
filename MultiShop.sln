@@ -40,6 +40,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirement
 		PortainerCmd.txt = PortainerCmd.txt
 		PortNumber.txt = PortNumber.txt
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\SimpleCode.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\SimpleCode.txt
+		UserExample.txt = UserExample.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{9EC689F6-64C4-4420-BC70-E9790F499802}"

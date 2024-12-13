@@ -16,5 +16,6 @@ namespace MultiShop.Catalog.Settings
         public string OfferDiscountCollectionName { get ; set ; }
         public string BrandCollectionName { get ; set ; }
         public string AboutCollectionName { get ; set ; }
+        public string ContactCollectionName { get ; set ; }
     }
 }
