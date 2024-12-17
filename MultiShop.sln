@@ -37,6 +37,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirement
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\FontAwesomeLink.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\FontAwesomeLink.txt
 		IdentityServerVersionErrorSolution.txt = IdentityServerVersionErrorSolution.txt
+		LoginIndex.txt = LoginIndex.txt
+		OcelotCodeExample.txt = OcelotCodeExample.txt
+		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\OcelotLink.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\OcelotLink.txt
 		PortainerCmd.txt = PortainerCmd.txt
 		PortNumber.txt = PortNumber.txt
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\SimpleCode.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\SimpleCode.txt
@@ -68,6 +71,20 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comment", "Comment", "{11DAD801-9BFC-45D7-A834-B9D4CEBCFD0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Comment", "Services\Comment\MultiShop.Comment\MultiShop.Comment.csproj", "{5F6756B3-FD27-42B5-9D85-565C71A6155A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{8B1BB27E-D8AB-4082-A894-E6CC701569BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RapidApi", "RapidApi", "{9D09AC40-A638-4398-B75F-156EAEDDB179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.OcelotGateway", "ApiGateway\MultiShop.OcelotGateway\MultiShop.OcelotGateway.csproj", "{AE82BD4E-06EC-427E-B972-4A011258FB08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{297FA562-3700-44B4-9E66-628A7406A8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Payment", "Services\Payment\MultiShop.Payment\MultiShop.Payment.csproj", "{24020A39-C7CF-4DDA-A8AB-7FC6F7758340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{09D2764C-61F9-4973-89A9-8EAD5DBE3D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Images", "Services\Images\MultiShop.Images\MultiShop.Images.csproj", "{E67B9644-8AF7-47F8-BE09-06B35258C59E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +156,18 @@ Global
 		{5F6756B3-FD27-42B5-9D85-565C71A6155A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6756B3-FD27-42B5-9D85-565C71A6155A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6756B3-FD27-42B5-9D85-565C71A6155A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE82BD4E-06EC-427E-B972-4A011258FB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE82BD4E-06EC-427E-B972-4A011258FB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE82BD4E-06EC-427E-B972-4A011258FB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE82BD4E-06EC-427E-B972-4A011258FB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24020A39-C7CF-4DDA-A8AB-7FC6F7758340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24020A39-C7CF-4DDA-A8AB-7FC6F7758340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24020A39-C7CF-4DDA-A8AB-7FC6F7758340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24020A39-C7CF-4DDA-A8AB-7FC6F7758340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67B9644-8AF7-47F8-BE09-06B35258C59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67B9644-8AF7-47F8-BE09-06B35258C59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67B9644-8AF7-47F8-BE09-06B35258C59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67B9644-8AF7-47F8-BE09-06B35258C59E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,5 +198,10 @@ Global
 		{03A2F15D-F296-4CE7-984E-42820B359A60} = {1E746638-EC2A-4BB5-80D7-44F0A358D373}
 		{11DAD801-9BFC-45D7-A834-B9D4CEBCFD0D} = {46FA1DC8-EDD0-4CC8-A9C8-85E8C5DF6A4F}
 		{5F6756B3-FD27-42B5-9D85-565C71A6155A} = {11DAD801-9BFC-45D7-A834-B9D4CEBCFD0D}
+		{AE82BD4E-06EC-427E-B972-4A011258FB08} = {8B1BB27E-D8AB-4082-A894-E6CC701569BD}
+		{297FA562-3700-44B4-9E66-628A7406A8F8} = {46FA1DC8-EDD0-4CC8-A9C8-85E8C5DF6A4F}
+		{24020A39-C7CF-4DDA-A8AB-7FC6F7758340} = {297FA562-3700-44B4-9E66-628A7406A8F8}
+		{09D2764C-61F9-4973-89A9-8EAD5DBE3D08} = {46FA1DC8-EDD0-4CC8-A9C8-85E8C5DF6A4F}
+		{E67B9644-8AF7-47F8-BE09-06B35258C59E} = {09D2764C-61F9-4973-89A9-8EAD5DBE3D08}
 	EndGlobalSection
 EndGlobal
