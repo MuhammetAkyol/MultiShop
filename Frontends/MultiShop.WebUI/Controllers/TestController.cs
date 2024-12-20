@@ -65,7 +65,7 @@ namespace MultiShop.WebUI.Controllers
 
         public async Task<IActionResult> Deneme2()
         {
-            var values = await _categoryService.GettAllCategoryAsync();
+            var values = await _categoryService.GetAllCategoryAsync();
             return View(values);
         }
     }
