@@ -35,11 +35,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.IdentityServer", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{CEC59680-5FE4-4286-8929-543E68403A90}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\Card.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\Card.txt
+		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\Card2.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\Card2.txt
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\FontAwesomeLink.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\FontAwesomeLink.txt
 		IdentityServerVersionErrorSolution.txt = IdentityServerVersionErrorSolution.txt
 		LoginIndex.txt = LoginIndex.txt
 		OcelotCodeExample.txt = OcelotCodeExample.txt
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\OcelotLink.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\OcelotLink.txt
+		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\OrderHtml.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\OrderHtml.txt
 		PortainerCmd.txt = PortainerCmd.txt
 		PortNumber.txt = PortNumber.txt
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\SimpleCode.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\SimpleCode.txt
@@ -85,6 +88,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{09D2764C-61F9-4973-89A9-8EAD5DBE3D08}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Images", "Services\Images\MultiShop.Images\MultiShop.Images.csproj", "{E67B9644-8AF7-47F8-BE09-06B35258C59E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Message", "Message", "{1C4347DE-1AC6-4D31-B6E7-E1A06B905F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Message", "Services\Message\MultiShop.Message\MultiShop.Message.csproj", "{9D61FB08-E1A3-4DA8-A21A-A86CCBB37CF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -168,6 +175,10 @@ Global
 		{E67B9644-8AF7-47F8-BE09-06B35258C59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E67B9644-8AF7-47F8-BE09-06B35258C59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E67B9644-8AF7-47F8-BE09-06B35258C59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D61FB08-E1A3-4DA8-A21A-A86CCBB37CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D61FB08-E1A3-4DA8-A21A-A86CCBB37CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D61FB08-E1A3-4DA8-A21A-A86CCBB37CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D61FB08-E1A3-4DA8-A21A-A86CCBB37CF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -203,5 +214,7 @@ Global
 		{24020A39-C7CF-4DDA-A8AB-7FC6F7758340} = {297FA562-3700-44B4-9E66-628A7406A8F8}
 		{09D2764C-61F9-4973-89A9-8EAD5DBE3D08} = {46FA1DC8-EDD0-4CC8-A9C8-85E8C5DF6A4F}
 		{E67B9644-8AF7-47F8-BE09-06B35258C59E} = {09D2764C-61F9-4973-89A9-8EAD5DBE3D08}
+		{1C4347DE-1AC6-4D31-B6E7-E1A06B905F5B} = {46FA1DC8-EDD0-4CC8-A9C8-85E8C5DF6A4F}
+		{9D61FB08-E1A3-4DA8-A21A-A86CCBB37CF2} = {1C4347DE-1AC6-4D31-B6E7-E1A06B905F5B}
 	EndGlobalSection
 EndGlobal
