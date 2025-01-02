@@ -35,6 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.IdentityServer", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{CEC59680-5FE4-4286-8929-543E68403A90}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\AdminStatisticApiForUI.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\AdminStatisticApiForUI.txt
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\Card.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\Card.txt
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\Card2.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\Card2.txt
 		..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\FontAwesomeLink.txt = ..\..\..\OneDrive\Desktop\MultiShop-master\MultiShop-master\FontAwesomeLink.txt
