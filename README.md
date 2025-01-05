@@ -13,7 +13,7 @@
 
 
 ## Hakkında
-MultiShop, mikroservis mimarisiyle geliştirilmiş kapsamlı bir e-ticaret platformudur. Kullanıcılar, hesap oluşturup oturum açabilir, ürünleri inceleyebilir, yorum yapabilir ve puan verebilirler. Ürünleri sepetlerine ekleyerek, güvenli kargo ve ödeme sistemleriyle alışverişlerini tamamlayabilirler. Admin panelinde ise, yeni ürün kategorileri ve ürünler eklenebilir, arayüz üzerindeki indirim teklifleri ve öne çıkan ürünler güncellenebilir. Ayrıca, sitenin güncel istatistikleri görüntülenerek, yönetimsel kararlar desteklenebilir. Bu sayede MultiShop, kullanıcılarına zengin ve interaktif bir alışveriş deneyimi sunarken, yöneticilerine de kolay ve etkili bir yönetim imkanı sağlar.
+MultiShop, Mikroservis Mimarisiyle geliştirilmiş kapsamlı bir e-ticaret platformudur. Kullanıcılar, hesap oluşturup oturum açabilir, ürünleri inceleyebilir, yorum yapabilir ve puan verebilirler. Ürünleri sepetlerine ekleyerek, güvenli kargo ve ödeme sistemleriyle alışverişlerini tamamlayabilirler. Admin panelinde ise, yeni ürün kategorileri ve ürünler eklenebilir, arayüz üzerindeki indirim teklifleri ve öne çıkan ürünler güncellenebilir. Ayrıca, sitenin güncel istatistikleri görüntülenerek, yönetimsel kararlar desteklenebilir. Bu sayede MultiShop, kullanıcılarına zengin ve interaktif bir alışveriş deneyimi sunarken, yöneticilerine de kolay ve etkili bir yönetim imkanı sağlar. Proje'de Ek Olarak Rapid Api Katmanı Oluşturulup Hava Durumu - Dolar&Euro Kuru - Logitech Sayfalarından Veriler Çekilmiştir.
 
 <h2>Kullanılan Teknolojiler</h2>
 <strong>Backend:</strong> C#, .NET CORE 6, Web API <br>
@@ -23,7 +23,7 @@ MultiShop, mikroservis mimarisiyle geliştirilmiş kapsamlı bir e-ticaret platf
 <strong>ORM:</strong> Entity Framework Core (CodeFirst), Dapper <br>
 <strong>Arayüz Tasarımı:</strong> HTML, CSS, JavaScript, jQuery, Ajax, Bootstrap <br>
 <strong>Diğer:</strong> Identity, JWT, RabbitMQ, Ocelot Gateway, SignalR, Postman, Swagger<br>
-<strong>Altyapı ve Dağıtım Araçları:</strong> Docker, Portainer, Google Cloud
+<strong>Altyapı ve Dağıtım Araçları:</strong> Docker, Portainer, Google Cloud, RapidApi
 
 
 ## Görseller
